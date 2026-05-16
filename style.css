@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #ffe6f0 0%, #ffccdd 100%);
+    background: linear-gradient(135deg, #e9f0e6 0%, #d4dfcd 100%);
     min-height: 100vh;
     padding: 40px 20px;
 }
@@ -14,19 +14,19 @@ body {
 .container {
     max-width: 750px;
     margin: 0 auto;
-    background: #fff0f5;
+    background: #fefcf5;
     border-radius: 20px;
     padding: 35px;
-    box-shadow: 0 10px 40px rgba(255, 105, 180, 0.2);
-    border: 1px solid #ffb6c1;
+    box-shadow: 0 10px 30px rgba(80, 80, 60, 0.1);
+    border: 1px solid #d0d6bf;
 }
 
 h2 {
-    color: #d63384;
+    color: #5b6e4a;
     margin-bottom: 25px;
     text-align: center;
     font-size: 28px;
-    border-bottom: 2px solid #ffb6c1;
+    border-bottom: 2px solid #d0d6bf;
     padding-bottom: 10px;
 }
 
@@ -34,13 +34,13 @@ h2 {
     text-align: right;
     margin-bottom: 20px;
     padding: 10px;
-    background: #ffe0e7;
+    background: #e8ede2;
     border-radius: 15px;
     font-size: 14px;
 }
 
 .auth-info a {
-    color: #d63384;
+    color: #5b6e4a;
     text-decoration: none;
     margin-left: 15px;
     font-weight: bold;
@@ -48,7 +48,7 @@ h2 {
 
 .auth-info a:hover {
     text-decoration: underline;
-    color: #b8206a;
+    color: #3e4f30;
 }
 
 .form-group {
@@ -59,7 +59,7 @@ label {
     display: block;
     font-weight: 600;
     margin-bottom: 8px;
-    color: #b13e6b;
+    color: #5b6e4a;
     font-size: 14px;
 }
 
@@ -72,7 +72,7 @@ textarea,
 select {
     width: 100%;
     padding: 12px;
-    border: 2px solid #ffb6c1;
+    border: 2px solid #d0d6bf;
     border-radius: 12px;
     font-size: 14px;
     font-family: inherit;
@@ -82,8 +82,8 @@ select {
 
 input:focus, textarea:focus, select:focus {
     outline: none;
-    border-color: #d63384;
-    box-shadow: 0 0 8px rgba(214, 51, 132, 0.3);
+    border-color: #8a9b73;
+    box-shadow: 0 0 8px rgba(100, 120, 70, 0.2);
 }
 
 .radio-group {
@@ -96,7 +96,7 @@ input:focus, textarea:focus, select:focus {
 .radio-group input {
     width: auto;
     margin-right: 5px;
-    accent-color: #d63384;
+    accent-color: #8a9b73;
 }
 
 .radio-group label {
@@ -118,7 +118,7 @@ select[multiple] {
 .checkbox-wrapper input {
     width: 20px;
     height: 20px;
-    accent-color: #d63384;
+    accent-color: #8a9b73;
 }
 
 .checkbox-wrapper label {
@@ -127,7 +127,7 @@ select[multiple] {
 }
 
 button {
-    background: linear-gradient(135deg, #d63384, #b8206a);
+    background: linear-gradient(135deg, #8a9b73, #6d805a);
     color: white;
     border: none;
     padding: 14px 28px;
@@ -141,23 +141,23 @@ button {
 
 button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(214, 51, 132, 0.4);
+    box-shadow: 0 5px 20px rgba(100, 120, 70, 0.3);
 }
 
 .error-message {
-    color: #dc3545;
+    color: #b05b5b;
     font-size: 0.85em;
     margin-top: 6px;
     padding: 6px 12px;
-    background: #ffe0e0;
+    background: #f4e2e2;
     border-radius: 10px;
-    border-left: 4px solid #dc3545;
+    border-left: 4px solid #b05b5b;
 }
 
 .success-message {
-    color: #155724;
-    background: #d4edda;
-    border: 1px solid #c3e6cb;
+    color: #4f6b3a;
+    background: #e2f0da;
+    border: 1px solid #c5dbb5;
     padding: 12px 18px;
     border-radius: 12px;
     margin-bottom: 20px;
@@ -165,27 +165,27 @@ button:hover {
 }
 
 .field-error {
-    border-color: #dc3545 !important;
-    background-color: #fff0f0 !important;
+    border-color: #b05b5b !important;
+    background-color: #fef0f0 !important;
 }
 
 .credentials {
-    background: linear-gradient(135deg, #fff0f5, #ffe0e7);
-    border: 2px solid #d63384;
+    background: linear-gradient(135deg, #fefcf5, #e8ede2);
+    border: 2px solid #8a9b73;
     border-radius: 15px;
     padding: 18px;
     margin-bottom: 25px;
     text-align: center;
-    color: #b13e6b;
+    color: #5b6e4a;
 }
 
 .credentials strong {
-    color: #d63384;
+    color: #5b6e4a;
     font-size: 16px;
 }
 
 a {
-    color: #d63384;
+    color: #6d805a;
     text-decoration: none;
 }
 
